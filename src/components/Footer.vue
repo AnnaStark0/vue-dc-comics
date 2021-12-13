@@ -54,11 +54,34 @@
     <!--///FOOTER UP-->
 
     <!--FOOTER DOWN-->
-    <div class="footerDOwn">
+    <div class="footerDown">
       <div class="container">
         <div class="sx">SIGN-UP NOW!</div>
 
-        <div class="dx">FOLLOW US</div>
+        <div class="dx">
+          FOLLOW US
+          
+            <a href="#">
+              <img src="../assets/img/footer-facebook.png" alt="fb" />
+            </a>
+
+            <a href="#">
+              <img src="../assets/img/footer-twitter.png" alt="tw" />
+            </a>
+
+            <a href="#">
+              <img src="../assets/img/footer-youtube.png" alt="yt" />
+            </a>
+
+            <a href="#">
+              <img src="../assets/img/footer-pinterest.png" alt="pn" />
+            </a>
+
+                        <a href="#">
+              <img src="../assets/img/footer-periscope.png" alt="pe" />
+            </a>
+          
+        </div>
       </div>
     </div>
     <!--///FOOTER DOWN-->
@@ -77,22 +100,25 @@ export default {
 <style lang='scss' scoped>
 footer {
   height: 500px;
-  background-color: grey;
+  background-color: rgb(53, 53, 53);
 
   font-family: Arial, Helvetica, sans-serif;
 
   .footerUp {
-    height: 70%;
     background-image: url("../assets/img/footer-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
-    display: flex;
-    align-items: center;
+
 
     .container {
+      height: 400px;
+
       display: flex;
+
+          display: flex;
+    align-items: center;
 
       ul {
         list-style: none;
@@ -103,15 +129,43 @@ footer {
           padding: 0 20px 5px 0;
           text-decoration: none;
           color: rgba(255, 255, 255, 0.5);
-          font-size: 10px;
+          font-size: 14px;
         }
 
         li:first-child a {
           color: white;
           text-transform: uppercase;
           font-weight: bold;
+          font-size: 20px;
           padding: 5px 50px 10px 0;
         }
+      }
+    }
+  }
+
+  .footerDown {
+    .container {
+      height: 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .sx {
+      color: white;
+      padding: 10px;
+      border: 3px solid #0282f9;
+      font-weight: bold;
+    }
+
+    .dx {
+display: flex;
+align-items: center;
+      color: #0282f9;
+      font-weight: bold;
+
+      a {
+          padding: 10px;
       }
     }
   }
