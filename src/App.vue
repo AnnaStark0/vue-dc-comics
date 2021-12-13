@@ -7,21 +7,20 @@
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import MainUno from './components/MainUno.vue';
-import Footer from './components/Footer.vue';
+import Header from "./components/Header.vue";
+import MainUno from "./components/MainUno.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Header,
     MainUno,
-    Footer
+    Footer,
   },
 };
 </script>
 
 <style lang="scss">
-@import './assets/style/global.scss';
-
+@import "./assets/style/global.scss";
 </style>

@@ -41,6 +41,7 @@ export default {
 @import "../assets/style/partials/variables.scss";
 
 header {
+    height: 100px;
     margin: 20px 0 20px 0;
 
   .container {
@@ -52,7 +53,7 @@ header {
 
     nav {
      
-     font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
       ul {
         list-style: none;

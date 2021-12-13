@@ -17,7 +17,17 @@ export default {
 
 
 <style lang='scss' scoped>
+@import "../assets/style/partials/variables.scss";
+
 main {
+font-family: Arial, Helvetica, sans-serif;
+
     background-color: black;
+    text-align: center;
+
+    h1 {
+        /*Non ricordo come usare var colore*/
+     color: white;
+    }
 }
 </style>
