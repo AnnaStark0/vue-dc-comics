@@ -26,8 +26,7 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
     h1 {
-        /*Non ricordo come usare var colore*/
-     color: white;
+     color: $whiteText;
     }
 }
 </style>
