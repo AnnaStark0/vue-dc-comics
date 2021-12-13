@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="container">
-            
+            <h1> -- CONTENT GOES HERE!!! -- </h1>
         </div>
     </main>
 </template>
@@ -17,5 +17,7 @@ export default {
 
 
 <style lang='scss' scoped>
-
+main {
+    background-color: black;
+}
 </style>
