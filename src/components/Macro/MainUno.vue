@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="container">
-            <h1> -- CONTENT GOES HERE!!! -- </h1>
+<Comics />
         </div>
     </main>
 </template>
@@ -9,24 +9,26 @@
 
 
 <script>
+
+import Comics from "../Sections/Comics.vue";
+
 export default {
-    name: 'MainUno'
+    name: 'MainUno',
+    components: {
+    Comics    
+    }
 }
 </script>
 
 
 
 <style lang='scss' scoped>
-@import "../assets/style/partials/variables.scss";
+@import "../../assets/style/partials/variables.scss";
 
 main {
-font-family: Arial, Helvetica, sans-serif;
-
     background-color: black;
     text-align: center;
 
-    h1 {
-     color: $whiteText;
-    }
+
 }
 </style>

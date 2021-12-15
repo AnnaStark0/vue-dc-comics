@@ -62,23 +62,23 @@
           FOLLOW US
           
             <a href="#">
-              <img src="../assets/img/footer-facebook.png" alt="fb" />
+              <img src="../../assets/img/footer-facebook.png" alt="fb" />
             </a>
 
             <a href="#">
-              <img src="../assets/img/footer-twitter.png" alt="tw" />
+              <img src="../../assets/img/footer-twitter.png" alt="tw" />
             </a>
 
             <a href="#">
-              <img src="../assets/img/footer-youtube.png" alt="yt" />
+              <img src="../../assets/img/footer-youtube.png" alt="yt" />
             </a>
 
             <a href="#">
-              <img src="../assets/img/footer-pinterest.png" alt="pn" />
+              <img src="../../assets/img/footer-pinterest.png" alt="pn" />
             </a>
 
                         <a href="#">
-              <img src="../assets/img/footer-periscope.png" alt="pe" />
+              <img src="../../assets/img/footer-periscope.png" alt="pe" />
             </a>
           
         </div>
@@ -103,9 +103,8 @@ footer {
   background-color: rgb(53, 53, 53);
 
   font-family: Arial, Helvetica, sans-serif;
-
   .footerUp {
-    background-image: url("../assets/img/footer-bg.jpg");
+    background-image: url("../../assets/img/footer-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,10 +114,12 @@ footer {
     .container {
       height: 400px;
 
+      padding:50px;
+
       display: flex;
 
           display: flex;
-    align-items: center;
+    align-items: flex-start;
 
       ul {
         list-style: none;

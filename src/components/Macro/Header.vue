@@ -3,7 +3,7 @@
     <div class="container">
       <!--Logo-->
       <div class="logo">
-        <img src="../assets/img/dc-logo.png" alt="Logo Dc" />
+        <img src="../../assets/img/dc-logo.png" alt="Logo Dc" />
       </div>
       <!--///Logo-->
 
@@ -38,11 +38,14 @@ export default {
 
 
 <style lang='scss' scoped>
-@import "../assets/style/partials/variables.scss";
+@import "../../assets/style/partials/variables.scss";
 
 header {
     height: 100px;
     margin: 20px 0 20px 0;
+
+
+
 
   .container {
     display: flex;
@@ -53,7 +56,6 @@ header {
 
     nav {
      
-    font-family: Arial, Helvetica, sans-serif;
 
       ul {
         list-style: none;
@@ -67,6 +69,11 @@ header {
           text-decoration: none;
           text-transform: uppercase;
           color: black;
+
+          &.active, &:hover {
+            color: $blueDc;
+            border-bottom: 3px solid $blueDc;
+          }
 
         }
       }
